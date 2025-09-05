@@ -12,3 +12,7 @@ const url = "a;skjdfhaskdjfaskdjfhasdkl;jfhslk"
 console.log(g.trim())
 
 console.log(url.replace(';','*******'))
+
+let num = 12938
+
+console.log(num.toString())
