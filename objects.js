@@ -19,3 +19,13 @@ user.greeting = function(){
 }
 
 console.log(user.greeting())    
+
+
+let user3 = {
+    "a":1,
+    "b":2,
+}
+
+let user4 = {...user,...user3};
+
+console.log(user4)
