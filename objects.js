@@ -29,3 +29,6 @@ let user3 = {
 let user4 = {...user,...user3};
 
 console.log(user4)
+
+console.log(Object.keys(user));
+console.log(Object.values(user));
