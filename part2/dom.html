@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .trial{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="trial">
+    <ul class="lang">
+        <li>JavaScript</li>
+    </ul>
+</body>
+    <script>
+         function lan(language) {
+            const li = document.createElement('li');
+            li.innerHTML = `${language}`
+            document.querySelector('.lang').appendChild(li)
+        }
+        lan("python")
+    </script>
+</html>
